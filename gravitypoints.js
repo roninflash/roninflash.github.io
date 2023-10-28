@@ -455,7 +455,7 @@ Particle.prototype = (function(o) {
     // GUI
 
     gui = new dat.GUI();
-    gui.add(control, 'particleNum', 0, 500).step(1).name('Particle Num').onChange(function() {
+    gui.add(control, 'particleNum', 0, 1500).step(1).name('Particle Num').onChange(function() {
         var n = (control.particleNum | 0) - particles.length;
         if (n > 0)
             addParticle(n);
