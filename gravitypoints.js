@@ -139,7 +139,7 @@ function GravityPoint(x, y, radius, targets) {
     this._speed = new Vector();
 }
 
-GravityPoint.RADIUS_LIMIT = 65;
+GravityPoint.RADIUS_LIMIT = 130;
 GravityPoint.interferenceToPoint = true;
 
 GravityPoint.prototype = (function(o) {
